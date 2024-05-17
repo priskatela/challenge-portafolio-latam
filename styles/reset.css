@@ -1,0 +1,217 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones
+en las secciones señaladas */
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+
+/*codigo en el main.css*/
+
+/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM.
+
+Lo que es el BEM?
+
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el
+desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
+independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
+con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
+
+Enlace de la documentación oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+/*Sección Menu
+.section.menu{
+
+    width: Fill (360px);
+    height: Hug (56px);
+    padding: 16px 0px opx 0px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.menu,.menu__header img .menu__header{
+    display:flex;
+    background: var(--cor-ultimo);
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+
+
+.menu__title{
+
+    display: flex;
+    background: var(--cor-ultimo);
+
+}
+
+
+.menu__list, .menu-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    background: var(--cor-ultimo);
+    justify-content: space-between;
+    padding: 3px ;
+}
+
+
+.menu__list__item,.menu__list__item__contacto {
+    color:var(--cor-de-link);
+}
+
+
+.menu__list__item,.menu__list__item__contacto{
+   color: var(--cor-letras);
+
+}
+.menu__list__item__contacto{
+    display: block;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/*Sección Title
+
+section.title{
+
+width: Fill (360px)px;
+height: Hug (294px)px;
+padding: 16px 0px 0px 0px;
+gap: 16px;
+opacity: 0px;
+
+
+
+}
+
+/*Sección About
+
+section.about{
+     width: Fill (360px)px;
+    height: Hug (350px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 10px;
+    opacity: 0px;
+
+
+
+}
+
+/*Sección Hobbies
+
+section.hobbies{
+    width: Fill (360px)px;
+    height: Hug (508px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 32px;
+    opacity: 0px;
+
+
+}
+
+/* Experiencia Académica
+
+section.academic{
+
+    width: Fill (360px)px;
+    height: Hug (661px)px;
+    padding: 32px 0px 0px 0px;
+    gap: 32px;
+    opacity: 0px;
+
+
+}
+
+/* experiencia
+
+section.experience{
+
+     width: Fill (360px)px;
+    height: Hug (1,321px)px;
+    padding: 32px 0px 0px 0px;
+    gap: 16px;
+    opacity: 0px;
+
+
+}
+
+/*Contacto
+
+section.formcontato{
+
+    width: Fill (360px)px;
+    height: Hug (777px)px;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+
+/*footeer
+
+section.footer{
+
+width: fill (360px);
+height: hug(777px);
+
+
+
+}
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet
+@media (min-width: 768px) {
+/* Menú
+.menu__list__item{
+    display: none;
+}
+
+.menu__list__item__contacto{
+    display:block;
+}
+*/
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*
+
+}
+
+/*Mobile*
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer
+
+}

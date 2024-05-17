@@ -1,0 +1,39 @@
+.about{
+    padding: 32px;
+    background-color: var(--cor-sobremi);
+}
+
+.about__container{
+    width: 67% ;
+    background-color: var(--cor-sobremi);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.about__container img{
+    width: 10rem;
+    background-color: var(--cor-sobremi);
+}
+.about__title{
+    font-size: 24px;
+    background: var(--cor-sobremi);
+    color: var(--cor-ultimo);
+}
+.about__paragraph{
+    font-size: 1;
+    background-color: var(--cor-sobremi);
+    color: var(--cc-de-link);
+    font-weight: bold;
+}
+
+@media(max-width:786px){
+    .about__container{
+        width: 100%;
+    }
+    .about__title{
+        font-size: 1rem;
+    }
+    .about__paragraph{
+        font-size: .9rem;
+    }
+}
